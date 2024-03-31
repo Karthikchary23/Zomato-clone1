@@ -1,132 +1,240 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-body
-{
-    background-color: #ebf2ff;
-    height: 100%;
-    .merriweather-light {
-        font-family: "Merriweather", serif;
-        font-weight: 300;
-        font-style: normal;
-      }
-      
-      .merriweather-light-italic {
-        font-family: "Merriweather", serif;
-        font-weight: 300;
-        font-style: italic;
-      }
-      
-      .merriweather-regular {
-        font-family: "Merriweather", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .merriweather-regular-italic {
-        font-family: "Merriweather", serif;
-        font-weight: 400;
-        font-style: italic;
-      }
-      
-      .merriweather-bold {
-        font-family: "Merriweather", serif;
-        font-weight: 700;
-        font-style: normal;
-      }
-      
-      .merriweather-bold-italic {
-        font-family: "Merriweather", serif;
-        font-weight: 700;
-        font-style: italic;
-      }
-      
-      .merriweather-black {
-        font-family: "Merriweather", serif;
-        font-weight: 900;
-        font-style: normal;
-      }
-      
-      .merriweather-black-italic {
-        font-family: "Merriweather", serif;
-        font-weight: 900;
-        font-style: italic;
-      }
-      
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-
-header{
-    position: sticky;
-    background-color: white;
-    width: 100%;
-    height: 70px;
-    
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+body {
+  background-color: #ebf2ff;
 
 
-}
-.logo .Zomato
-{
-    width: 100px;
-    height: 67px;
-}
-.nav1
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
+  .merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
 
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
 }
-.order-button
-{
-    margin: 10px;
-    padding: 0.5rem 1rem;
-    text-align: center;
-    text-transform: capitalize;
-    transition: 0.5s;
-    font-weight: 800;
-    background-size: 200% auto;
-    color: white;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 4px;
-    display: block;
-    background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
-    border: none;
-    cursor: pointer;
-    width: 145px;
-    height: 50px;
-    font-size: 14px;
+
+header {
+  position: sticky;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
+
+.logo .Zomato {
+  width: 100px;
+  height: 67px;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primary-button {
+  margin: 10px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.5s;
+  font-weight: 800;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 4px;
+  display: block;
+  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+  border: none;
+  cursor: pointer;
+  width: 145px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
 @media (min-width:768px) {
-  .nav1
-{
+  .nav1 {
     justify-content: space-between;
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
+  }
 
+  .first-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: aqua; */
+
+
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 300px;
+
+
+
+  }
 }
-  
-}
-@media(max-width:767px)
-{
-  .order-button
-  {
+
+@media(max-width:767px) {
+  .primary-button {
     width: 100px;
     height: 40px;
     margin-right: 20px;
-    font-size: 9px;
-    font-weight: 700;
-
+    font-size: 11px;
+    font-weight: 800;
   }
-  .logo .Zomato
-{
-    width: 70px;
-    height: 50px;
+
+  .logo .Zomato {
+    width: 80px;
+    height: 55px;
     margin-left: 20px;
+  }
 }
 
+.hero-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+
+.container {
+  padding: 17px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#first-button {
+  margin-left: 2px;
+}
+
+.h1-class {
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 36px;
+  font-style: normal;
+  color: rgb(29, 53, 87);
+  font-family: "Merriweather", serif;
+}
+
+@media (min-width:1024px) {
+  .container {
+    max-width: 90%;
+    gap: 30px;
+
+    margin-top: 20px;
+    /* background-color: aqua; */
+
+  }
+
+  .h1-class {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+
+
+  }
+
+  .hero-image {
+    width: 500px;
+    height: 400px;
+
+
+  }
+
+  .description {
+    width: 100%;
+
+
+  }
+
+
+
+}
+
+.images-style {
+  width: 100%;
+}
+
+@media (min-width:1440px) {
+
+  .h1-class {
+
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .hero-image {
+    width: 500px;
+    height: 400px;
+  }
+
+  .container {
+    max-width: 75%;
+    gap: 30px;
+    /* background-color: #ff512f; */
+  }
+
+
+}
+
+.hero-image {
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  right: 200px;
+  height: 496px;
+  z-index: -1;
 }
