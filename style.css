@@ -462,4 +462,213 @@ header {
 
 
 }
+.section_three_title
+{
+  font-size: 24px;
+  line-height: 32px;
+  font-style: normal;
+  color: rgb(29, 53, 87);
+  font-family: "Merriweather", serif;
+
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-weight: 900;
+
+}
+
+
+.restaurant_row1{
+  display: flex;
+  
+}
+.restaurant_row2{
+  display: flex;
+  
+}
+.restaurant1{
+  border-radius: 4px;
+  margin: 0 5px;
+  width: 150px;
+  height: 80px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.restaurant2 {
+  border-radius: 4px;
+  margin: 0 5px;
+  width: 133.32px;
+  height: 100px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  position: relative;
+  top: -20px;
+}
+@media (max-width:368px) {
+  .restaurant
+{
+    padding: 0;
+    margin-right: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+  
+
+}
+
+
+.restaurant4 {
+  border-radius: 4px;
+  margin: 0 5px;
+  width: 150px;
+  height: 100px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.restaurant3 {
+  border-radius: 4px;
+  margin: 0 5px;
+  width: 123.48px;
+  height: 80px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width:375px) {
+  .restaurant4 {
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 185.83px;
+    height: 100px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .restaurant3 {
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 139.38px;
+    height: 80px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .restaurant1{
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .restaurant2 {
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 175.2px;
+    height: 100px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    position: relative;
+    top: -20px;
+  }
+
+  
+}
+@media (min-width:375px) {
+  .restaurant4 {
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .restaurant3 {
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .restaurant1{
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .restaurant2 {
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    position: relative;
+    top: -20px;
+  }
+  .restaurant_row2
+  {
+    position: relative;
+    left: 20px;
+    /* margin-top: -12px; */
+    top: -12px;
+  }
+  
+
+  
+}
+@media (min-width:768px) {
+  .section_three
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .section_three_title
+  {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+
+  }
+  
+}
+@media (min-width:1440px) {
+  .section_three_title
+  {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+  }
+  .restaurant4 {
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 300px;
+    height: 260px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .restaurant3 {
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 250px;
+    height: 180px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .restaurant1{
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 250px;
+    height: 180px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .restaurant2 {
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 300px;
+    height: 260px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    position: relative;
+    top: -81px;
+  }
+  .section_three
+  {
+    margin-top: 11rem;
+  }
+  .restaurant_row2{
+    position: relative;
+    top: -77px;
+    right:10px ;
+  }
+  
+}
+
 
