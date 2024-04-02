@@ -524,12 +524,12 @@ header {
 .restaurant3 {
   border-radius: 4px;
   margin: 0 5px;
-  width: 123.48px;
+  width: 125.48px;
   height: 80px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-@media (min-width:375px) {
+ @media (min-width:375px) {
   .restaurant4 {
     border-radius: 4px;
     margin: 0 5px;
@@ -559,10 +559,10 @@ header {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     position: relative;
     top: -20px;
-  }
+  } }
 
   
-}
+
 @media (min-width:375px) {
   .restaurant4 {
     border-radius: 4px;
@@ -597,7 +597,7 @@ header {
   .restaurant_row2
   {
     position: relative;
-    left: 20px;
+    left: 0px;
     /* margin-top: -12px; */
     top: -12px;
   }
@@ -605,6 +605,19 @@ header {
 
   
 }
+@media (min-width:425px) {
+  .restaurant_row2
+  {
+    position: relative;
+    left: 29px;
+    /* margin-top: -12px; */
+    top: -12px;
+  }
+  
+
+  
+}
+
 @media (min-width:768px) {
   .section_three
   {
@@ -619,6 +632,12 @@ header {
     line-height: 36px;
     font-weight: 900;
 
+  }
+  .restaurant_row2{
+    position: relative;
+    /* top: -77px; */
+    left: 0px;
+    
   }
   
 }
@@ -666,9 +685,187 @@ header {
   .restaurant_row2{
     position: relative;
     top: -77px;
-    right:10px ;
+    left: 0px;
+     }
+  .section_three_title
+  {
+    position: relative;
+    top: -44px;
+  }  
+}
+.updates-text
+{
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  color: rgb(29, 53, 87);
+  font-family: "Merriweather", serif;
+  margin-bottom: 1px;
+
+
+
+}
+.email_container
+{
+    margin-top: 3rem;
+    width: 100%;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* max-width: 320px; */
+
+}
+.email_input_container
+{
+  display: flex;
+  align-items: center;
+
+}
+.email_input {
+  border: 1px solid #ee89a0;
+  background-color: #fcedf0;
+  color: #1d3557;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-family: "Merriweather", serif;
+
+}
+.button__primary {
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+    display: block;
+}
+ 
+
+
+.button__primary
+{
+  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width:375px) {
+  .button__primary {
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+    display: block;
+    width: 100px;
+    height: 53px;
+  }
+  .email_input {
+    border: 1px solid #ee89a0;
+    background-color: #fcedf0;
+    color: #1d3557;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 4px;
+     width: 194.4px;
   }
   
 }
+@media (min-width:425px) {
+  .button__primary {
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+    display: block;
+    width: 115px;
+    height: 34px;
+  }
+  
+}
+@media (min-width:768px) {
+  .email_container
+  {
+    margin: 35px auto;
+    max-width: 60%;
+
+   
+    /* background-color: #ee89a0; */
+  }
+  .updates-text
+{
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  color: rgb(29, 53, 87);
+  font-family: "Merriweather", serif;
+  margin-bottom: 1px;
 
 
+
+}
+.email_input {
+  width: 320px;
+}
+}
+@media (min-width:1024px) {
+  .email_container
+  {
+    margin: 35px auto;
+    max-width: 40%;
+
+   
+    /* background-color: #ee89a0; */
+  }
+  
+}
+@media (min-width:1440px) {
+  .updates-text
+{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 48px;
+  color: rgb(29, 53, 87);
+  font-family: "Merriweather", serif;
+  margin-bottom: 1px;
+
+
+
+}
+.button__primary {
+  margin: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.5s;
+  font-weight: 600;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 4px;
+  display: block;
+  width: 159px;
+  height: 51px;
+  /* padding: 1rem 2rem; */
+  font-size: 1rem;
+}
+
+  
+}
