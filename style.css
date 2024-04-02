@@ -5,6 +5,7 @@
 
 body {
   background-color: #ebf2ff;
+  font-family:"Merriweather", serif ;
 
 
   .merriweather-light {
@@ -866,6 +867,156 @@ button {
   /* padding: 1rem 2rem; */
   font-size: 1rem;
 }
+}
+.quote_container {
+  position: relative;
+  margin-top: 1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  border-radius: 13px;
+  background: url(https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80) center center / cover no-repeat;
+  left: 10px;
+}
+h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+    
+}
+.quote_image_text{
+
+    color: #fff;
+    z-index: 3;
+    margin: 0 1rem;
+    text-align: center;
+    font-family: "Merriweather", serif;
+
+
+}
+.quote_image_overlay {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+
+  border-radius: 13px;
+  background-color: #0a4065;
+  opacity: 49%;
+}
+@media (min-width:768px) {
+  .quote_image_text{
+
+    color: #fff;
+    z-index: 3;
+    margin: 0 1rem;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    line-height: 36px;
+
 
   
+}
+.quote_container {
+  position: relative;
+  right: 5px;
+  left: 0px;
+}
+}
+@media (min-width:1024px) {
+  .quote_image_text{
+
+    color: #fff;
+    z-index: 3;
+    margin: 0 1rem;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    line-height: 38px;
+
+
+  
+}
+.quote_container {
+  position: relative;
+  right: 0px;
+  left: 0px;
+}
+section
+{
+  position: relative;
+  left: 3px;
+
+ 
+}
+}
+@media (min-width:1440px) {
+  .quote_image_text{
+
+   
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    line-height: 38px;
+
+
+  
+}
+.quote_container {
+  height: 300px;
+  width: 100%;
+}
+
+}
+footer > ul > li {
+  margin: 5px 0;
+}
+li {
+  display: list-item;
+  /* text-align: -webkit-match-parent; */
+  unicode-bidi: isolate;
+}
+footer > ul {
+  margin-top: -1rem;
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem 1rem 0 0;
+  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+  width: 100%;
+}
+.footer_image{
+  
+    /* overflow-clip-margin: content-box;
+    overflow: clip; */
+    width: 300px;
+    filter: brightness(0) invert(1);
+}
+@media (min-width:768px) {
+  footer{
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 300px;
+
+  }
+  
+}
+footer{
+  margin-top: 50px;
 }
